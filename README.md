@@ -8,4 +8,5 @@ There is now a treadmill controller (V1.1!), seen in src/main.cpp, for the Ardui
 For setup: the treadmill's controller (the white one) is still used here, its controls are being bypassed by the arduino code in this repository.
 
 ## Connections
-![Circuit](./Circuit.jpg)
+Currently, we use an [Arduino Sensor Shield V5.0](https://www.hobbyelectronica.nl/en/product/sensor-shield/) for (almost) all the connections. The only connection not on this board is the serial conection to the treadmill ([RS232-TTL](https://www.benselectronics.nl/rs232-ttl-converter.html)). The connections are shown below
+<img src="./Circuit.png">
